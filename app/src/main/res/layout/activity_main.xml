@@ -15,6 +15,34 @@
         android:textAlignment="center"
         style="@style/MyStyle" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="What is your nickname"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Done"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_Result"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/imageView"
         style="@style/MyStyle"
@@ -28,7 +56,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
